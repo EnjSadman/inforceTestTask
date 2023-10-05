@@ -1,0 +1,25 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background-color: rgba(0,0,0,0.5);
+
+  
+
+  &__inner {
+    width: 300px;
+
+    margin-top: 30%;
+    margin-left: 30%;
+
+    background-color: white;
+
+    box-shadow: 10px 5px 5px black;
+
+    display: flex;
+    flex-direction: column;
+  }
+}
